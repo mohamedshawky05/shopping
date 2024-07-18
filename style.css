@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.content{
+    height: 600px;
+    width: 600px;
+    padding: 20px 0;
+    margin: 0 6px;
+    position: absolute;
+    top: 2%;
+}
+div img
+{
+    height: 100%;
+    width: 100%;
+}
+div h2
+{
+    position: absolute;
+    top: 11%;
+    left: 45%;
+    font-size: 50px;
+    font-weight:700 ;
+}
+div .p1
+{
+    position: absolute;
+    top: 26%;
+    left: 42%;
+}
+div i{
+    position: absolute;
+    top: 36%;
+    left: 42%;
+}
+div .p2{
+    position: absolute;
+    top: 46%;
+    left: 42%;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    font-size: 20px;
+
+}
+div p
+{
+    font-weight: 100;
+}
+div .im
+{
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    top: 60%;
+    left: 42%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    color: black;
+}
+div a img:hover{
+    transform:translate(0,10px);
+    rotate: 0;
+}
+@media (max-width:1450px) {
+    .content{
+        height: 300px;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0 2px;
+        position: absolute;
+        top: 2%;
+    }    
+    div h2
+    {
+        position: absolute;
+        top: 50%;
+        left: 23%;
+        font-size: 30px;
+        font-weight:300 ;
+    }
+    div .p1
+    {
+    position: absolute;
+    top: 56%;
+    left: 12%;
+   }   
+   div i 
+   {
+    position: absolute;
+    top: 76%;
+    left: 12%;
+   }
+   div .p2 
+   {
+    position: absolute;
+    top: 96%;
+    left: 12%;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    font-size: 10px;
+}
+div .im
+{
+    height: 15%;
+    width: 15%;
+    position: absolute;
+    top: 110%;
+    left: 32%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    color: black;
+}   
+}
+
