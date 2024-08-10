@@ -20,7 +20,7 @@ div h2
 {
     position: absolute;
     top: 11%;
-    left: 45%;
+    left: 45%; 
     font-size: 50px;
     font-weight:700 ;
 }
@@ -69,7 +69,7 @@ div a img:hover{
         height: 300px;
         width: 100%;
         padding: 10px 0;
-        margin: 0 2px;
+        margin: 0;
         position: absolute;
         top: 2%;
     }    
@@ -115,4 +115,36 @@ div .im
     color: black;
 }   
 }
+@media (max-width:415PX) {
 
+div h2
+ {
+    
+    /*position: absolute;
+    top: 11%;
+    left: 45%;  */
+    margin: auto;
+    padding: auto;
+    font-size: 30px;
+    font-weight:300 ;
+}    
+.im img{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    margin: 0;
+}
+.p1 ,.p2 , .text i{
+   margin-left: 1px;
+   margin-right: 5px;
+
+
+}
+.content{
+    margin: 0;
+}
+.content img{
+    width: 100%;
+    height: 330px;
+}
+}
